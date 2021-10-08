@@ -7,11 +7,11 @@
         
         
         
-        <link rel="shortcut icon" href="/img/favicon.ico">
-        <title>IoTEasier</title>
-        <link href="/css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="/css/font-awesome.min.css" rel="stylesheet">
-        <link href="/css/base.css" rel="stylesheet">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Software - IoTEasier</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/darcula.min.css">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
@@ -19,8 +19,8 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-        <script src="/js/jquery-1.10.2.min.js" defer></script>
-        <script src="/js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
         <script>hljs.initHighlightingOnLoad();</script> 
     </head>
@@ -39,7 +39,7 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="/.">IoTEasier</a>
+                    <a class="navbar-brand" href="../..">IoTEasier</a>
                 </div>
 
                 <!-- Expanded navigation -->
@@ -47,31 +47,31 @@
                         <!-- Main navigation -->
                         <ul class="nav navbar-nav">
                             <li >
-                                <a href="/.">Home</a>
+                                <a href="../..">Home</a>
                             </li>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Product <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="/products/IoTModule-NBiot/">-物聯網模組</a>
+    <a href="../../products/IoTModule-NBiot/">-物聯網模組</a>
 </li>
                                     
 <li >
-    <a href="/products/SiteManager/">-環境控制設備</a>
+    <a href="../../products/SiteManager/">-環境控制設備</a>
 </li>
                                 </ul>
                             </li>
-                            <li class="dropdown">
+                            <li class="dropdown active">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="/user-guide/Voyager/">Devices</a>
+    <a href="../Voyager/">Devices</a>
 </li>
                                     
-<li >
-    <a href="/user-guide/Titan/">Software</a>
+<li class="active">
+    <a href="./">Software</a>
 </li>
                                 </ul>
                             </li>
@@ -80,11 +80,11 @@
                                 <ul class="dropdown-menu">
                                     
 <li >
-    <a href="/about/aboutus/">About Us</a>
+    <a href="../../about/aboutus/">About Us</a>
 </li>
                                     
 <li >
-    <a href="/about/Contact-us/">Contact Us</a>
+    <a href="../../about/Contact-us/">Contact Us</a>
 </li>
                                 </ul>
                             </li>
@@ -96,21 +96,151 @@
                                 <i class="fa fa-search"></i> Search
                             </a>
                         </li>
+                            <li >
+                                <a rel="next" href="../Voyager/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../../about/aboutus/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
                     </ul>
                 </div>
             </div>
         </div>
 
         <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#description">Description</a></li>
+        <li class="main "><a href="#_1">應用</a></li>
+        <li class="main "><a href="#_2">面板連接器</a></li>
+        <li class="main "><a href="#scsi-inputout">SCSI Input/Out</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
 
-    <div class="row-fluid">
-      <div id="main-content" class="span12">
-        <h1 id="404-page-not-found" style="text-align: center">404</h1>
-        <p style="text-align: center"><strong>Page not found</strong></p>
-      </div>
-    </div>
-
-
+<h1 id="description">Description</h1>
+<h1 id="_1">應用</h1>
+<h1 id="_2">面板連接器</h1>
+<p><img alt="" src="https://raw.githubusercontent.com/IOTEASIER/image/main/img/20211008160624.png" /></p>
+<table>
+<thead>
+<tr>
+<th><strong>Color</strong></th>
+<th><strong>Description</strong></th>
+<th><strong>Connector Type</strong></th>
+<th><strong>Purpose</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Dark Red</td>
+<td>POE</td>
+<td>4* RJ45</td>
+<td>Power over Ethernet</td>
+</tr>
+<tr>
+<td>Orange</td>
+<td>Ethernet</td>
+<td>4* RJ45</td>
+<td>Ethernet for Internet connection</td>
+</tr>
+<tr>
+<td>Yellow</td>
+<td>48V  PWM/DC FAN</td>
+<td>3*  3.81mm Terminal [4-pin]</td>
+<td>PWM/DC FAN In, FAN1, FAN2, FAN3</td>
+</tr>
+<tr>
+<td>Light Green</td>
+<td>48V Power Input</td>
+<td>2* 5.08mm Terminal [2-pin]</td>
+<td>Power Input, Main, Back-up</td>
+</tr>
+<tr>
+<td>Light Blue</td>
+<td>48V FAN Power  Input</td>
+<td>1* 5.08mm Terminal [2-pin]</td>
+<td>Power Input for 48V PWM/DC FAN</td>
+</tr>
+<tr>
+<td>Pink</td>
+<td>Reserved 1</td>
+<td>1*  RJ45 [8-pin]</td>
+<td>SOM RS485</td>
+</tr>
+<tr>
+<td>Dark Blue</td>
+<td>Reserved  2</td>
+<td>1* RJ45 [8-pin]</td>
+<td>Console  Port for debugging purpose only</td>
+</tr>
+<tr>
+<td>Dark Purple</td>
+<td>RS485</td>
+<td>2* RJ45 [8-pin]</td>
+<td>RS485, Modbus-RTU, RS485-1, RS485-2</td>
+</tr>
+<tr>
+<td>Dark Brown</td>
+<td>RS232</td>
+<td>2* RJ45 [8-pin]</td>
+<td>RS232, RS232-1, RS232-2</td>
+</tr>
+<tr>
+<td>Dark Green</td>
+<td>1-Wire</td>
+<td>1*  RJ45 [8-pin]</td>
+<td>1-Wire for Temperature Sensor</td>
+</tr>
+<tr>
+<td>Light Yellow</td>
+<td>Analog  (current)</td>
+<td>1*  RJ45 [8-pin]</td>
+<td>Analog In, Current Sensing for  Smoke Sensor</td>
+</tr>
+<tr>
+<td>Light Pink</td>
+<td>Analog  (voltage)</td>
+<td>2*  RJ45 [8-pin]</td>
+<td>Analog In, Voltage Sensing for  various Sensors</td>
+</tr>
+<tr>
+<td>AirCon Control</td>
+<td>Aircon  Panel</td>
+<td>Custom</td>
+<td>Connects  aircon control unit using custom cable</td>
+</tr>
+<tr>
+<td>White</td>
+<td>RS485  Terminal Switch</td>
+<td></td>
+<td>Control  status for On-board RS485</td>
+</tr>
+<tr>
+<td>Light Red</td>
+<td>SCSI  Output &amp; LED Combo</td>
+<td>SCSI  Output [50-pin] &amp; LED Matrix [20-indicator]</td>
+<td>Custom SCSI Female Connector for Digital  Outputs and LED matrix to indicate each output status</td>
+</tr>
+<tr>
+<td>Navy Blue</td>
+<td>SCSI  Input &amp; LED Combo</td>
+<td>SCSI  Input [50-pin] &amp; LED Matrix [20-indicator]</td>
+<td>Custom SCSI Male Connector for Digital  Inputs and LED matrix to indicate each input status</td>
+</tr>
+<tr>
+<td>Light Orange</td>
+<td>USB  2.0</td>
+<td>USB  2.0</td>
+<td>USB 2.0 Full Speed</td>
+</tr>
+</tbody>
+</table>
+<h1 id="scsi-inputout">SCSI Input/Out</h1></div>
         </div>
 
         <footer class="col-md-12">
@@ -119,11 +249,11 @@
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
         <script>
-            var base_url = "/",
+            var base_url = "../..",
                 shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
-        <script src="/js/base.js" defer></script>
-        <script src="/search/main.js" defer></script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
     <div class="modal-dialog">
